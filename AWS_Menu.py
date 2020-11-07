@@ -1,15 +1,4 @@
-import os
-import sys
-
-os.system("tput setaf 3")
-print("\t\t\tWelcome to my Menu!!")
-os.system("tput setaf 7")
-print("\t\t\t------------------------------")
-
-print("\t\t\tPress 1 : To use AWS services:")
-s1=input("\n\t\t\tEnter your choice:- ")
-
-if s1=="1":
+def aws():
 	while True:
 		os.system("clear")
 		print("""
