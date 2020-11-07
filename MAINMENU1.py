@@ -2,7 +2,8 @@ import os
 from com_fun1 import *
 from localopr import *
 from myinfo1 import *
-
+from aws_menu import *
+from remote import *
 
 while (1) :
         os.system("tput setaf 1")
@@ -60,9 +61,14 @@ while (1) :
 
 
                 elif ((("Docker" in ch1) or ("docker" in ch1) or ("DOCKER" in ch1)) and (("mana" in ch1) or ("Mana" in ch1)  or ("MANA" in ch1))) :
-                    
                     l_dockerManagement()
                     os.system("tput setaf 7")
+                        
+                        
+                elif ((("aws" in ch1) or ("AWS" in ch1) or ("Aws" in ch1)) and (("mana" in ch1) or ("Mana" in ch1)  or ("MANA" in ch1))) :
+                    aws()
+                    os.system("tput setaf 7")
+                        
                 else :
                     print("No Match Found Please Try Again")
 
@@ -145,6 +151,11 @@ while (1) :
                     
                     r_dockerManagement(ip_add)
                     os.system("tput setaf 7")
+                
+                elif ((("aws" in ch1) or ("AWS" in ch1) or ("Aws" in ch1)) and (("mana" in ch1) or ("Mana" in ch1)  or ("MANA" in ch1))) :
+                    aws(ip_add)
+                    os.system("tput setaf 7")
+                        
                 else :
                     print("No Match Found Please Try Again")
 
