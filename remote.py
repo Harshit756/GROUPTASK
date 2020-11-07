@@ -14,7 +14,7 @@ def r_basicOperation(ip_add):
                 \t 1: check system date
                 \t 2: System Calender
                 \t 3: Check Currently User Name
-                \t 4: Currently Working Ditectory
+                \t 4: Currently Working Directory
                 \t 5: Listing Of File
                 \t 6. Open Editor
                 \t 7: Count Number Of Words In A File
