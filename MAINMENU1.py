@@ -2,7 +2,7 @@ import os
 from com_fun1 import *
 from localopr import *
 from myinfo import *
-from remote import *
+
 
 while (1) :
         os.system("tput setaf 1")
