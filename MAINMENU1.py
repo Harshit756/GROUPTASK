@@ -1,7 +1,7 @@
 import os
 from com_fun1 import *
 from localopr import *
-from myinfo import *
+from myinfo1 import *
 
 
 while (1) :
