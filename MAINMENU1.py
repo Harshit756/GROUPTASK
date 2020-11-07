@@ -1,7 +1,7 @@
 import os
 from com_fun1 import *
 from localuserop import *
-from myinfo1 import *
+from myinfo import *
 from aws_menu import *
 from remote import *
 from docker import *
